@@ -1,0 +1,70 @@
+/* Meadi Queries For Responsiveness */
+
+@media screen  and (max-width:500px){
+    .stack2{
+        margin-top: -1em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stack2 .stack2-right .hero img{
+        width: 90%;
+        margin: 0 1.5em;
+    }
+
+    .stack2 .stack2-left .e-mill{
+        font-size: 20px;
+    }
+
+    .stack3 .shop-now{
+        padding: 1em 2em;
+        font-size: 10px;
+    }
+
+    
+
+    main section.section-about {
+        width: 90%;
+    }
+
+    section.section-about p{
+        text-align: justify;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    section.section-shop .gadget-head h3{
+        font-size: 25px;
+    }
+    section.section-shop .gadgets{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 1em;
+    }
+
+    section.section-shop .gadgets .items img{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    section.section-shop .gadgets .gadget .items h3{
+        margin: 1;
+    }
+
+    section.section-shop .gadgets .gadget .items .add-remove-btn{
+        padding: .5em 1em;
+    }
+
+    footer .stack1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .stack1 .stack1-left .logo  a .lg-link{
+        padding: 1em;
+    }
+    
+}
