@@ -1,6 +1,70 @@
 /* Meadi Queries For Responsiveness */
 
 @media screen  and (max-width:500px){
+    .container .stack1 nav{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em 0;
+    }
+
+    .stack1 .stack1-left .logo a .lg-link{
+        padding: 0 1.5em;
+    }
+
+    .stack1 .stack1-right .cart-btn{
+        border-radius: 30px;
+        padding: 1em 1.5em;
+    }
+    .btn-bars{
+        display: block;
+    }
+    .stack1 nav .stack1-mid {
+        background-color: var(--random-orange);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+    }
+
+    .stack1 nav .stack1-mid ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .flex{
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .flex a{
+        background-color: var(--Deep-orange);
+        padding: 0 2em;
+        text-decoration: none;
+    }
+
+    .flex a .lg-link{
+        color: var(--bg-header-color);
+        font-weight: bolder;
+    }
+
+    .flex .btn-bars{
+        margin-right: 6em;
+    }
+
+    .stack1 nav .stack1-mid ul li{
+        display: flex;
+        align-content: space-between;
+        margin-left: 0em;
+        margin-top: 4em;
+    }
+
+    .stack1 nav .stack1-mid ul li a{
+        font-size: 15px;
+        padding-bottom: 1em;
+    }
     .stack2{
         margin-top: -1em;
         display: flex;
@@ -25,7 +89,7 @@
     
 
     main section.section-about {
-        width: 90%;
+        width: 100%;
     }
 
     section.section-about p{
@@ -50,21 +114,107 @@
         margin: 0 auto;
     }
 
-    section.section-shop .gadgets .gadget .items h3{
+    section.section-shop .gadgets .items h3{
         margin: 1;
     }
 
-    section.section-shop .gadgets .gadget .items .add-remove-btn{
+    section.section-shop .gadgets .items .add-remove-btn{
         padding: .5em 1em;
     }
 
-    footer .stack1{
+    footer .stack3{
         display: flex;
         flex-direction: column;
     }
 
-    footer .stack1 .stack1-left .logo  a .lg-link{
+    footer .stack3 .stack3-left .logo  a .lg-link{
         padding: 1em;
     }
     
 }
+
+
+@media screen and (max-width:850px) and (min-width:501px){
+    .stack2{
+        margin-top: -1em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stack2 .stack2-left .e-mill{
+        margin-left: -1em;
+        text-align: start;
+    }
+
+    
+    main section.section-about {
+        width: 90%;
+    }
+
+    section.section-about p{
+        text-align: justify;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    section.section-shop .gadget-head h3{
+        font-size: 25px;
+    }
+    section.section-shop .gadgets{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding: 0 1em;
+    }
+
+    section.section-shop .gadgets .items img{
+        width: 90%;
+        height: auto;
+    }
+
+    section.section-shop .gadgets .items h3{
+        margin: 1;
+    }
+
+    section.section-shop .gadgets .items .add-remove-btn{
+        padding: .5em 1em;
+    }
+
+    footer .stack3{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+
+
+    /* footer .stack3 .stack3-left .logo  a .lg-link{
+        padding: 1em;
+    } */
+}
+
+@media screen  and (min-width:501px){
+    .stack1 nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+    }
+
+    .stack1 nav .stack1-left{
+        margin-left: -1em;
+    }
+
+    
+    .stack1 nav .close{
+        margin-right: -1em;
+    }
+
+
+    
+    
+}
+
+
